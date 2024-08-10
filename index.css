@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{ width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  background-color:#006d77;
+}
+button{
+    height: 90px;
+    width: 90px;
+    padding: 30px;
+    border-radius: 22px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.calculator{
+    border: 3px solid;
+    padding: 50px;
+   border-radius: 50px;
+
+}
+#text{
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 17px;
+    margin: 10px;
+    font-size: 20px;
+    text-align: right;
+    color: white;
+    
+}
+button:hover{
+    background: wheat;
+
+
+}
